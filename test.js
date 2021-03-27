@@ -1,1 +1,1 @@
-`${params.userId} -> ${params.query}`;
+`${JSON.stringify(params)}`;
