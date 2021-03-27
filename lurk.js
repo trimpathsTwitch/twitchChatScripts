@@ -1,7 +1,7 @@
 var respondMsg = "i did something wrong o no";
 if (params.query.length > 0)
 {
-	respondMsg = `${params.user} Enjoy ${params.query}!`;
+	respondMsg = `${params.userId} is going to hang around while ${params.query}!`;
 }
 else
 {
