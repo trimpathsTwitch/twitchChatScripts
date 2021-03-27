@@ -1,1 +1,1 @@
-`${params.userId}`;
+`${params.userId} -> ${params.query}`;
