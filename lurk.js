@@ -1,5 +1,5 @@
 var respondMsg = "i did something wrong o no";
-if (false)//params.query.length > 0)
+if (false)
 {
 	respondMsg = `${params.userId} is going to hang around while ${params.query}!`;
 }
