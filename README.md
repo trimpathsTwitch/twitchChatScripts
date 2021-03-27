@@ -7,4 +7,6 @@ While the scripts should update in Nightbot immediately once they are pushed to 
 For the `propoganda` command, this looks like:
 `!commands edit !propaganda $(eval $(urlfetch json https://raw.githubusercontent.com/trimpathsTwitch/twitchChatScripts/master/propaganda.js))`
 
-No scripts currently support the Nightbot macros (yet).
+If you add extra javascript, the script linked in `urlfetch` will have access to the Nightbot macros.
+In this snippet, the executed JavaScript has access to the `$(user)` macro as `params.userId` and the `$(query)` macro as `params.query`.
+`$(eval var params={userId:'$(user)',query:'$(query)'}; $(urlfetch json <url>))`
