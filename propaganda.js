@@ -1,5 +1,5 @@
 const responses = [
-	[ "Did you know Trimpaths claims to be 5' tall when they are really 4'11.75\"?", 30 ],
+	[ "Did you know Trimpaths claims to be 5' tall when a doctor confirmed they are only 4'11\"?", 30 ],
 	[ "PunOko", 10 ],
 	[ "BibleThump Trim is 5 ft tall BibleThump I'm not being threatened at all to say this BibleThump", 1 ]
 ];
