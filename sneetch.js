@@ -2,7 +2,7 @@ let sneetches = ['plain-bellied', 'star-bellied'];
 let sneetchType = sneetches[Math.floor(Math.random() * 2)];
 
 const responses = [
-  [ `We love ${sneetchType} sneetches here, and we are pleased to count ${params.user} is among them! trimpaLove`, 10 ],
+  [ `We love ${sneetchType} sneetches here, and we are pleased to count ${params.userId} is among them! trimpaLove`, 10 ],
 ];
 const total = responses.reduce((total, option) => total + option[1], 0);
 var pickScore = Math.floor(Math.random() * total);
