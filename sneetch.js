@@ -17,5 +17,4 @@ for (var i = 0; i < responses.length; ++i)
 	}
 	pickScore -= responses[i][1];
 }
-respondMsg += JSON.stringify(params);
 respondMsg;
